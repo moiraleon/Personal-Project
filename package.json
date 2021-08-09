@@ -4,6 +4,7 @@
   "description": "",
   "main": "bucketlist.js",
   "scripts": {
+    "start": "node bucketlist.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
