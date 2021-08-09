@@ -22,7 +22,6 @@ body{
     margin-right: auto;
     width: 50%;
     border-radius: 80px;  
-    /* whynowork */
 } 
 #visited{
     color: white;
@@ -164,17 +163,19 @@ div.desc {
   clear: both;
 }
 
-
-
-/* @media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
+/* #stories_page{
+  background-color: black;
 }
 
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+.story_container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.story_image{
+  flex-basis: 40%;
+}
+.story_text {
+  font-size: medium;
+  padding-left: 20px;
 } */
