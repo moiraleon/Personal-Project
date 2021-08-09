@@ -138,12 +138,13 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 400px;
 }
 
 div.desc {
   padding: 15px;
   text-align: center;
+  color: white;
 }
 
 * {
@@ -156,7 +157,16 @@ div.desc {
   width: 24.99999%;
 }
 
-@media only screen and (max-width: 700px) {
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* @media only screen and (max-width: 700px) {
   .responsive {
     width: 49.99999%;
     margin: 6px 0;
@@ -167,43 +177,4 @@ div.desc {
   .responsive {
     width: 100%;
   }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-
-
-
-
-
-/* 
-{
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    margin: auto;
-    max-width: 100%;
-     max-height: 100%;
-     
-} 
-/* .spain_text{
-    display: none;
-    border:1px solid #000;
-    height:30px;
-    width:290px;
-    margin-left:10px;
-    background-image: url("https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg")
-}
-
-.spain_text:hover{
-    color: white;
-    display: block;
-    background-image: url("https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg")
-}
-
- */
+} */
