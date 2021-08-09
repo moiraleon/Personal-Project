@@ -1,0 +1,209 @@
+body{
+    background-color: black;
+    font-family: "Open Sans", sans-serif;
+    height: 100%;
+    font-weight: 900;
+}
+.header{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: xx-large;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;}
+
+#main_photo_home{   
+    background-size: cover; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 80px;  
+    /* whynowork */
+} 
+#visited{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+
+}
+#visited:hover{background-image:none;
+    background-color:white;
+    color: black;}
+
+#unvisited{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+}
+#unvisited:hover{background-image:none;
+    background-color:white;
+    color: black;}
+
+#bucketlist{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+}
+#bucketlist:hover{background-image:none;
+    background-color:white;
+    color: black;}
+#stories{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+}
+#stories:hover{background-image:none;
+    background-color:white;
+    color: black;}
+#gallery{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+}
+#gallery:hover{background-image:none;
+    background-color:white;
+    color: black;}
+
+#visited_header{ 
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: xx-large;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+
+    }
+
+.mySlides{
+    width: 100%;
+    height: auto;
+}
+
+#unvisited_header{ 
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    font-size: xx-large;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+
+    }
+
+
+#spain_text:hover{
+   
+    top: 200px; 
+    left: 0; 
+    width: 100%;
+    color: white;
+    background-image: url("https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg");
+
+}
+
+
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+/* 
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+     max-height: 100%;
+     
+} 
+/* .spain_text{
+    display: none;
+    border:1px solid #000;
+    height:30px;
+    width:290px;
+    margin-left:10px;
+    background-image: url("https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg")
+}
+
+.spain_text:hover{
+    color: white;
+    display: block;
+    background-image: url("https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg")
+}
+
+ */
