@@ -1,116 +1,145 @@
 <!DOCTYPE html>
-<html lang="en" >
-    <link rel="stylesheet" href="project.css">
+<html lang="en">
+<link rel="stylesheet" href="project.css">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bucketlist</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bucketlist</title>
 </head>
+
 <body>
-    <form id="trip_form" action="/api/bucketlist-form" method="POST" >
+  <form id="trip_form" action="/api/bucketlist-form" method="POST">
     <ul>
-        <li>
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="full_name">
-        </li>
-        <li>
-            <label for="age">Age:</label>
-            <input type="text" id="age" name="age">
-        </li>
-        <li>
-            <label for="mail">E-mail:</label>
-            <input type="email" id="mail" name="user_email">
-          </li>
+      <li>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="full_name">
+      </li>
+      <li>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+      </li>
+      <li>
+        <label for="mail">E-mail:</label>
+        <input type="email" id="mail" name="user_email">
+      </li>
 
-          <fieldset id="group1">
-        <div id="animal"> 
+      <fieldset id="group1">
+        <div id="animal">
           <p>Choose your spirit animal:</p>
-            <label for="animal"></label>
-            <div>
-                <input type="radio" id="lion" name="group1" value="lion"
-                       checked>
-                <label for="lion">Lion</label>
-              </div>
-              
-              <div>
-                <input type="radio" id="snake" name="group1" value="snake">
-                <label for="snake">Snake</label>
-              </div>
-              
-              <div>
-                <input type="radio" id="turtle" name="group1" value="turtle">
-                <label for="turtle">Turtle</label>
-              </div>
-              
-              <div>
-                <input type="radio" id="eagle" name="group1" value="eagle">
-                <label for="eagle">Eagle</label>
-              </div>
+          <label for="animal"></label>
+          <div>
+            <input type="radio" id="lion" name="group1" value="lion">
+            <label for="lion">Lion</label>
+          </div>
 
-            </div>
-          </fieldset>
+          <div>
+            <input type="radio" id="snake" name="group1" value="snake">
+            <label for="snake">Snake</label>
+          </div>
 
-          <fieldset id="group2">
-            <div id="creature">
-              <p>Choose which creature best represents your character:</p>
-              <label for="animal"></label>
-              <div>
-                  <input type="radio" id="elf" name="group2" value="elf"
-                         checked>
-                  <label for="elf">Elf</label>
-                </div>
-                
-                <div>
-                  <input type="radio" id="dragon" name="group2" value="dragon">
-                  <label for="dragon">Dragon</label>
-                </div>
-                
-                <div>
-                  <input type="radio" id="fairy" name="group2" value="fairy">
-                  <label for="fairy">Fairy</label>
-                </div>
-                
-                <div>
-                  <input type="radio" id="wizard" name="group2" value="wizard">
-                  <label for="wizard">Wizard</label>
-                </div>
-            </div>
-          </fieldset>
+          <div>
+            <input type="radio" id="turtle" name="group1" value="turtle">
+            <label for="turtle">Turtle</label>
+          </div>
 
-            <fieldset id="group3">
-            <div id="color">
-              <p>Choose which color best represents your personality:</p>
-                <label for="animal"></label>
-                <div>
-                    <input type="radio" id="green" name="group3" value="green"
-                           checked>
-                    <label for="green">Green</label>
-                  </div>
-                  
-                  <div>
-                    <input type="radio" id="yellow" name="group3" value="yellow">
-                    <label for="Yellow">Yellow</label>
-                  </div>
-                  
-                  <div>
-                    <input type="radio" id="blue" name="group3" value="blue">
-                    <label for="blue">Blue</label>
-                  </div>
-                  
-                  <div>
-                    <input type="radio" id="red" name="group3" value="red">
-                    <label for="red">Red</label>
-                  </div>
-                </div>
-              </fieldset>
-<br>                
-                    <button id="form_button" type="submit">Find your dream desitation</button>
+          <div>
+            <input type="radio" id="eagle" name="group1" value="eagle">
+            <label for="eagle">Eagle</label>
+          </div>
 
-           
-            
+        </div>
+      </fieldset>
+
+      <fieldset id="group2">
+        <div id="creature">
+          <p>Choose which creature best represents your character:</p>
+          <label for="animal"></label>
+          <div>
+            <input type="radio" id="elf" name="group2" value="elf">
+            <label for="elf">Elf</label>
+          </div>
+
+          <div>
+            <input type="radio" id="dragon" name="group2" value="dragon">
+            <label for="dragon">Dragon</label>
+          </div>
+
+          <div>
+            <input type="radio" id="fairy" name="group2" value="fairy">
+            <label for="fairy">Fairy</label>
+          </div>
+
+          <div>
+            <input type="radio" id="wizard" name="group2" value="wizard">
+            <label for="wizard">Wizard</label>
+          </div>
+        </div>
+      </fieldset>
+
+      <fieldset id="group3">
+        <div id="color">
+          <p>Choose which color best represents your personality:</p>
+          <label for="animal"></label>
+          <div>
+            <input type="radio" id="green" name="group3" value="green">
+            <label for="green">Green</label>
+          </div>
+
+          <div>
+            <input type="radio" id="yellow" name="group3" value="yellow">
+            <label for="Yellow">Yellow</label>
+          </div>
+
+          <div>
+            <input type="radio" id="blue" name="group3" value="blue">
+            <label for="blue">Blue</label>
+          </div>
+
+          <div>
+            <input type="radio" id="red" name="group3" value="red">
+            <label for="red">Red</label>
+          </div>
+        </div>
+      </fieldset>
+      <br>
+      <button id="form_button" type="submit">Find your dream desitation</button>
+
+
+
     </ul>
-   
-    </form>
+
+  </form>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script>
+    const form = document.getElementById('trip_form');
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      let nameInput = document.getElementById('name');
+      let ageInput = document.getElementById('age');
+      let mailInput = document.getElementById('mail');
+      // let animalInput = document.querySelector('input[name="animal"]:checked');
+
+
+      let body = { 
+        name: nameInput.value,
+        age: ageInput.value,
+        mail: mailInput.value,
+        // animal: animalInput.value,
+
+       }
+      console.log(body)
+      axios.post('/api/bucketlist-form', body)//.then()
+    });
+
+
+
+
+  </script>
+
+
 </body>
+
 </html>

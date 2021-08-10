@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 app.use(express.json()) 
 const path = require('path')
+// const form  = document.getElementById('trip_form');
 
 //ACCESS PHOTOS
 app.use(express.static('public'))
@@ -39,16 +40,14 @@ app.get('/project.css', (req, res) => {
 app.post("/api/bucketlist-form", (req,res)=>{
     let{name,age,mail,animal,creature, color}=req.body;
     console.log(req.body)
-    res.status(200).send(`Congratulations! Please check your email for your destination spot.`)
+    res.status(200).send(`Congratulations ${name}! Please check your email for your destination spot.`)
 })
 
-//CREATE TRAVEL CARD
-module.exports = {
 
 
-}
 
 
 app.listen(5500, () => {
     console.log(`Server is up and running`)
   })
+
