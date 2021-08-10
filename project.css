@@ -165,6 +165,7 @@ div.desc {
 
 #trip_form {
     background-color: white;
+    background-image: url("https://media.self.com/photos/5f0885ffef7a10ffa6640daa/3:4/w_2945,h_3927,c_limit/travel_plane_corona.jpeg");
   margin: 0 auto;
   width: 500px;
   padding: 1em;
@@ -182,5 +183,5 @@ label {
       
     }
 #form_button:hover{
-    background-color: rgb(97, 224, 233);;
+    background-color:peachpuff;
 }

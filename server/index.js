@@ -4,6 +4,9 @@ app.use(express.json())
 const path = require('path')
 
 
+app.use(express.static('public'))
+
+app.use('/public', express.static(path.join(__dirname, '../public')))
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../project.html'))
@@ -33,14 +36,10 @@ app.get('/project.css', (req, res) => {
     res.sendFile(path.join(__dirname, '../project.css'))
   })
 
-app.get('/public', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public'))
-  })
-
 app.post("/api/bucketlist-form", (req,res)=>{
     let{name,age,mail,animal,creature, color}=req.body;
     console.log(req.body)
-    res.status(200).send(`Congratulations ${name},! please check your email for your destination spot`)
+    res.status(200).alert(`Congratulations ${name}! Please check your email for your destination spot.`)
 })
 
 
