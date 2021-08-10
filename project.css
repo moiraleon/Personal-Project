@@ -119,7 +119,7 @@ body{
     }
 
 
-#spain_text:hover{
+/* #spain_text:hover{
    
     top: 200px; 
     left: 0; 
@@ -127,7 +127,7 @@ body{
     color: white;
     background-image: url("https://i.natgeofe.com/k/e800ca90-2b5b-4dad-b4d7-b67a48c96c91/spain-madrid.jpg");
 
-}
+} */
 
 
 
@@ -183,5 +183,5 @@ label {
       
     }
 #form_button:hover{
-    background-color:peachpuff;
+    background-color:rgb(2,117,255);
 }

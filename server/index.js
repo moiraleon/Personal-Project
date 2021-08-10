@@ -3,11 +3,11 @@ const app = express()
 app.use(express.json()) 
 const path = require('path')
 
-
+//ACCESS PHOTOS
 app.use(express.static('public'))
 
 app.use('/public', express.static(path.join(__dirname, '../public')))
-
+//GET REQUESTS
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../project.html'))
   })
@@ -39,9 +39,14 @@ app.get('/project.css', (req, res) => {
 app.post("/api/bucketlist-form", (req,res)=>{
     let{name,age,mail,animal,creature, color}=req.body;
     console.log(req.body)
-    res.status(200).alert(`Congratulations ${name}! Please check your email for your destination spot.`)
+    res.status(200).send(`Congratulations! Please check your email for your destination spot.`)
 })
 
+//CREATE TRAVEL CARD
+module.exports = {
+
+
+}
 
 
 app.listen(5500, () => {
