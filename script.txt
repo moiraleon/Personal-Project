@@ -1,30 +1,30 @@
 Hello!
-Today we are going to walk through the parts and funcitonality included in this personal project.
-The stack for this project is comprosed of HTML,Javascript and CSS and is deployed through the Herkoku platform 
+Today we are going to walk through the parts and functionality included in this personal project.
+The stack for this project is comprised of HTML,Javascript and CSS and is deployed through the Heroku platform 
 and uses Circleci as a continuous integration software.
 This project is a simple web browser that includes topics touched on through the duration of this course including get, 
-and post requests, axios,html forms and buttons, importing express, package.jsons, node modules, and javascripts functions and loops.
-The web browser is easily navigated to by the following link provided by heroku ...
-Users will first view the landing page which includes 5 navigation options: visited, unvisited, bucketlist, stories, and gallery.
+and post requests, axios, html forms and buttons, importing express, package.jsons, node modules, and javascript functions and loops.
+The web browser is easily navigated to by the following link provided by heroku "..."
+Users will first view the landing page which includes 5 navigation options: visited, unvisited, bucket-list, stories, and gallery.
 
-The visited page will take users to a slide show of images that will rotate through as determined by a "carousel" funciton. These images
-also have a hover funciton that provides simple details including the location, popular tourist activities, and a brief personal experience in these locations.
+The visited page will take users to a slide show of images that will rotate through as determined by a "carousel" function. These images
+also have a hover function that provides simple details including the location, popular tourist activities, and a brief personal experience in these locations.
 
-The unvisited page will allow users to view images that are automated to scale to the full screen of different fdecives and also have a hover function
+The unvisited page will allow users to view images that are automated to scale to the full screen of different devices and also have a hover function
 that provides a few details about the locations including place, things to do, and why or what the objective  of traveling there would be.
 
-The bucketlist page will allow users to fill out a form/ personality quiz to determine a recommended travel destination for them to add to their 
-bucketlists. Users will fill out various nput fields including text, mail, and radio buttons and submit their forms.The information is process and 
-run through a funciton based on the combination and presence of different answers to determine the correct response.
+The bucket-list page will allow users to fill out a form/ personality quiz to determine a recommended travel destination for them to add to their 
+bucket-lists. Users will fill out various input fields including text, mail, and radio buttons and submit their forms.The information is process and 
+run through a function based on the combination and presence of different answers to determine the correct response.
 
 The stories page is a simple attempt to resemble a blog page where image and text are aligned using css imported into an html file as another way 
 to practice styling to display stories with a heading and text with a related picture.
 
 The gallery page is a demonstration of aligning pictures that were imported through a local device using paths and express.static to 
-use non url sources photos and display a brief image discription below that also displays borders on a mouseover funciton.
+use non url sources photos and display a brief image description below that also displays borders on a mouseover function.
 
 Overall this project displays various skills and implements different properties that were taught through the foundations 8 week course
-and can be sumarized by a brief description of what it contains: creating servers, front end and backends with functionality and automated testing all
+and can be summarized by a brief description of what it contains: creating servers, front end and backends with functionality and automated testing all
 deployed through a third party software.
 
 
