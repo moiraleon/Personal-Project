@@ -40,7 +40,8 @@ app.get('/project.css', (req, res) => {
 app.post("/api/bucketlist-form", (req,res)=>{
     let{name,age,mail,animal,creature, color}=req.body;
     console.log(req.body)
-    res.status(200).send(`Congratulations ${name}! Please check your email for your destination spot.`)
+    res.status(200)
+    .send(`Congratulations ${name}! Please check your email for your destination spot.`)
 })
 
 
