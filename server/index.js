@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 app.use(express.json()) 
 const path = require('path')
-// const form  = document.getElementById('trip_form');
+
 
 //ACCESS PHOTOS
 app.use(express.static('public'))
@@ -45,7 +45,7 @@ app.post("/api/bucketlist-form", (req,res)=>{
 
 
 
-
+const port = process.env.PORT||5200
 
 app.listen(5500, () => {
     console.log(`Server is up and running`)
