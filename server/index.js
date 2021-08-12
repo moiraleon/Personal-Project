@@ -45,9 +45,9 @@ app.post("/api/bucketlist-form", (req,res)=>{
 
 
 
-const port = process.env.PORT||5200
+const port = process.env.PORT||5500
 
-app.listen(5500, () => {
+app.listen(port, () => {
     console.log(`Server is up and running`)
   })
 
