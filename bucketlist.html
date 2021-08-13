@@ -10,19 +10,23 @@
 </head>
 
 <body>
+  <div id="visited_header">
+    <h1>Complete the form to find your perfect destination!</h1>
+  </div>
+
   <form id="trip_form" action="/api/bucketlist-form" method="POST">
     <ul>
       <li>
         <label for="name">Full Name:</label>
-        <input type="text" id="name" name="full_name">
+        <input type="text" id="name" name="full_name" required>
       </li>
       <li>
         <label for="age">Age:</label>
-        <input type="text" id="age" name="age">
+        <input type="text" id="age" name="age" required>
       </li>
       <li>
         <label for="mail">E-mail:</label>
-        <input type="email" id="mail" name="user_email">
+        <input type="email" id="mail" name="user_email" required>
       </li>
 
       <fieldset id="group1">
@@ -136,7 +140,9 @@
        }
       console.log(body)
       axios.post('/api/bucketlist-form', body)
-      .then
+      // .then
+      alert ('Form submission successful! Please check your email to view results.')
+      (form.reset())
     });
 
 
