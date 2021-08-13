@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="project.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="project.css">
 </head>
-<style>
+<!-- <style>
 
 #hawaii:hover #hawaii_description{
   visibility: visible;
@@ -77,28 +78,50 @@
 #romania:hover #romania_description{
   visibility: visible;
   opacity: 1;
-}
+} -->
 
 
 
-</style>
+<!-- </style> -->
 <div id="visited_header">
-    <h1>PLACES VISITED</h1>
+  <h1>PLACES VISITED</h1>
 </div>
 
 <body>
-    <div>
-    <img id="hawaii" src="http://cdn.cnn.com/cnnnext/dam/assets/201230100452-10-2021-travel-destinations-hawaii.jpg" alt="Hawaii" style="width:100%">
-    <p id="hawaii_description" >Oahu Hawaii</p>
-    <img id="cook_islands" src="https://cookislands.travel/sites/default/files/2019-10/home_things_to_do_aitutaki.jpg" alt="Raratonga"style="width:100%">
-    <p id="cook_islands_description">Raratonga Cook Islands</p>
-    <img id="iceland" src="https://deih43ym53wif.cloudfront.net/thingvellir-national-park-northern-lights_ef5fe18996.jpeg" alt="Iceland"style="width:100%"> 
-    <p id="iceland_description">Reykavik Iceland</p> 
-    <img id="romania" src="https://www.homestratosphere.com/wp-content/uploads/2018/06/Peles-castle.jpg" alt="Romania"style="width:100%">
-    <p id= "romania_description" >Cisnadie Romania</p>
-</div>
+  <div>
+    <img class="mySlides"
+      src="http://cdn.cnn.com/cnnnext/dam/assets/201230100452-10-2021-travel-destinations-hawaii.jpg" alt="Hawaii"
+      style="width:100%">
+    <!-- <p id="hawaii_description" >Oahu Hawaii</p> -->
+    <img class="mySlides" src="https://cookislands.travel/sites/default/files/2019-10/home_things_to_do_aitutaki.jpg"
+      alt="Raratonga" style="width:100%">
+    <!-- <p id="cook_islands_description">Raratonga Cook Islands</p> -->
+    <img class="mySlides"
+      src="https://deih43ym53wif.cloudfront.net/thingvellir-national-park-northern-lights_ef5fe18996.jpeg" alt="Iceland"
+      style="width:100%">
+    <!-- <p id="iceland_description">Reykavik Iceland</p>  -->
+    <img class="mySlides" src="https://www.homestratosphere.com/wp-content/uploads/2018/06/Peles-castle.jpg"
+      alt="Romania" style="width:100%">
+    <!-- <p id= "romania_description" >Cisnadie Romania</p> -->
+  </div>
 
-<script src="visited.js"
-></script>
+
+  <script>
+    var slideIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) { slideIndex = 1 }
+      x[slideIndex - 1].style.display = "block";
+      setTimeout(carousel, 5000);
+    }
+  </script>
 </body>
+
 </html>
