@@ -22,8 +22,8 @@
         <h1>Spain</h1>
       </div>
       <div class="image">
-        <a id="ita-a"><img class="mySlides"
-          src="https://www.state.gov/wp-content/uploads/2018/11/Italy-2109x1406.jpg" alt="Italy" style="width:100%"></a>
+        <a id="ita-a"><img class="mySlides" src="https://www.state.gov/wp-content/uploads/2018/11/Italy-2109x1406.jpg"
+            alt="Italy" style="width:100%"></a>
         <div id="ita-div">
           <h1>Italy</h1>
         </div>
@@ -34,6 +34,36 @@
             <h1>India</h1>
           </div>
         </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text-center mt-5">
+                <a href="#headerPopup" id="headerVideoLink" target="_blank"
+                  class="btn btn-outline-danger popup-modal"></a>
+              </p>
+              <div id="headerPopup" class="mfp-hide embed-responsive embed-responsive-21by9">
+                <iframe class="embed-responsive-item" width="854" height="480"
+                  src="https://www.youtube.com/embed?v=gzrLsW0mhQA?autoplay=1" frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ?autoplay=1 --> 
+        <!-- causes videos to play automatically when initiated -->
+
+
+
+
+
+
+
+
+
+
+
 
         <script>
           var slideIndex = 0;
@@ -50,6 +80,14 @@
             x[slideIndex - 1].style.display = "block";
             setTimeout(carousel, 6000);
           }
+
+
+          document.addEventListener('load',function()  {
+            ('#headerVideoLink').magnificPopup({
+              type: 'inline',
+              midClick: true 
+            });
+          });
         </script>
 </body>
 
