@@ -127,22 +127,22 @@
       let animalInput = document.querySelector('input[name="group1"]:checked');
       let creatureInput = document.querySelector('input[name="group2"]:checked');
       let colorInput = document.querySelector('input[name="group3"]:checked');
-      
 
 
-      let body = { 
+
+      let body = {
         name: nameInput.value,
         age: ageInput.value,
         mail: mailInput.value,
         animal: animalInput.value,
         creature: creatureInput.value,
         color: colorInput.value,
-       }
+      }
       console.log(body)
       axios.post('/api/bucketlist-form', body)
       // .then
-      alert ('Form submission successful! Please check your email to view results.')
-      (form.reset())
+      alert('Form submission successful! Please check your email to view results.')
+        (form.reset())
     });
 
 
