@@ -97,8 +97,7 @@ body{
     color: white;
     max-width: 100%;
     max-height: 100%;
-
-    }
+}
 
 .mySlides{
     width: 100%;
@@ -184,4 +183,99 @@ label {
     }
 #form_button:hover{
     background-color:rgb(2,117,255);
+}
+
+/* .vis-descriptions:hover{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    color: white;
+    font-size: xx-large;
+  } */
+  /* #romania_description:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+  }
+  #hawaii_description #hawaii_img:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+  }
+  #cook_islands_description:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+  }
+  #iceland_description:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
+  } */
+
+  #haw-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#haw-a:hover + #haw-div {
+    display: block;
+}
+#rar-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#rar-a:hover + #rar-div {
+    display: block;
+}
+
+#ice-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#ice-a:hover + #ice-div {
+    display: block;
+}
+
+#rom-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#rom-a:hover + #rom-div {
+    display: block;
 }
