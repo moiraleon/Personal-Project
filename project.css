@@ -279,3 +279,43 @@ label {
 #rom-a:hover + #rom-div {
     display: block;
 }
+
+#spa-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#spa-a:hover + #spa-div {
+    display: block;
+}
+#ita-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#ita-a:hover + #ita-div {
+    display: block;
+}
+#ind-div {
+    display: none;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    margin-left:10px;
+    color: white;
+    font-size: xx-large
+}
+
+#ind-a:hover + #ind-div {
+    display: block;
+}
